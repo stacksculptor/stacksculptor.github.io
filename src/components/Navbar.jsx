@@ -23,7 +23,7 @@ const Navbar = () => {
 				>
 					<img src={logo} alt="logo" className="w-9 h-9 object-contain" />
 					<p className="text-white text-[15.5px] font-bold cursor-pointer flex">
-						Konrad&nbsp;
+						Kristian&nbsp;
 						<span className="sm:block hidden">| Web Developer</span>
 					</p>
 				</Link>
@@ -31,10 +31,9 @@ const Navbar = () => {
 					{navLinks.map((link) => (
 						<li
 							key={link.id}
-							className={`${
-								active === link.title
-								? "text-white"
-								: "text-secondary"
+							className={`${active === link.title
+									? "text-white"
+									: "text-secondary"
 								}
 							  hover:text-white cursor-pointer text-[18px]
 								font-medium`}
@@ -51,9 +50,8 @@ const Navbar = () => {
 						onClick={() => setToggle(!toggle)}
 					/>
 					<div
-						className={`${
-							!toggle ? "hidden" : "flex"
-						} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
+						className={`${!toggle ? "hidden" : "flex"
+							} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
 						<ul className="list-none flex justify-end items-start flex-col gap-4">
 							{navLinks.map((link) => (
 								<li

@@ -19,10 +19,11 @@ import {
     starbucks,
     tesla,
     shopify,
-    Moviebrowser,
-    jobit,
     tripguide,
     threejs,
+    UFOGaming,
+    Tourism,
+    RESILIO
 } from "../assets";
 
 export const navLinks = [{
@@ -40,24 +41,29 @@ export const navLinks = [{
 ];
 
 const services = [{
-        title: "Web Developer",
+        title: "Frontend Developer",
         icon: web,
-    },
-    {
-        title: "React Native Developer",
-        icon: mobile,
     },
     {
         title: "Backend Developer",
         icon: backend,
     },
     {
-        title: "Front End Developer",
+        title: "Mobile Developer",
+        icon: mobile,
+    },
+    {
+        title: "DevOps Engineer",
         icon: creator,
     },
 ];
 
-const technologies = [{
+const technologies = [
+    {
+        name: "React JS",
+        icon: reactjs,
+    },
+    {
         name: "HTML 5",
         icon: html,
     },
@@ -69,18 +75,14 @@ const technologies = [{
         name: "JavaScript",
         icon: javascript,
     },
-    // {
-    //     name: "TypeScript",
-    //     icon: typescript,
-    // },
     {
-        name: "React JS",
-        icon: reactjs,
+        name: "TypeScript",
+        icon: typescript,
     },
-    // {
-    //     name: "Redux Toolkit",
-    //     icon: redux,
-    // },
+    {
+        name: "Redux Toolkit",
+        icon: redux,
+    },
     {
         name: "Tailwind CSS",
         icon: tailwind,
@@ -89,10 +91,10 @@ const technologies = [{
         name: "Node JS",
         icon: nodejs,
     },
-    // {
-    //     name: "MongoDB",
-    //     icon: mongodb,
-    // },
+    {
+        name: "MongoDB",
+        icon: mongodb,
+    },
     {
         name: "Three JS",
         icon: threejs,
@@ -101,14 +103,14 @@ const technologies = [{
         name: "git",
         icon: git,
     },
-    // {
-    //     name: "figma",
-    //     icon: figma,
-    // },
-    // {
-    //     name: "docker",
-    //     icon: docker,
-    // },
+    {
+        name: "figma",
+        icon: figma,
+    },
+    {
+        name: "docker",
+        icon: docker,
+    }
 ];
 
 const experiences = [{
@@ -189,33 +191,33 @@ const testimonials = [{
 ];
 
 const projects = [{
-        name: "Movie browser",
+        name: "UFO Gaming NFT Market place",
         description: "Web-base platform that allows users to search through movie database and check movies for details. Currently not mobile friendly.",
         tags: [{
-                name: "react",
+                name: "Next.js",
                 color: "blue-text-gradient",
             },
             {
-                name: "css",
+                name: "NFT",
                 color: "green-text-gradient",
             },
             {
-                name: "bootstrap",
+                name: "SmartContract",
                 color: "pink-text-gradient",
             },
         ],
-        image: Moviebrowser,
-        source_code_link: "https://kbinko.github.io/moviebrowser/",
+        image: UFOGaming,
+        source_code_link: "https://github.com/stacksculptor/UFOGaming",
     },
     {
-        name: "Job IT",
+        name: "Tourism",
         description: "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
         tags: [{
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "map api",
                 color: "green-text-gradient",
             },
             {
@@ -223,12 +225,12 @@ const projects = [{
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: Tourism  ,
+        source_code_link: "https://github.com/stacksculptor/tourism",
     },
     {
-        name: "Trip Guide",
-        description: "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        name: "RESILIO",
+        description: "Resilio connects and automates data movement across core, cloud, and edge so you can concentrate on delivering innovation and enhancing customer experience. Less troubleshooting, more data flowing.",
         tags: [{
                 name: "nextjs",
                 color: "blue-text-gradient",
@@ -242,8 +244,8 @@ const projects = [{
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: RESILIO,
+        source_code_link: "https://github.com/stacksculptor/Resilio",
     },
 ];
 

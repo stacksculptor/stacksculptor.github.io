@@ -29,6 +29,9 @@ import tesla from "./company/tesla.png";
 import Moviebrowser from "./Moviebrowser.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import UFOGaming from './UFOGaming.png'
+import Tourism from './Tourism.png'
+import RESILIO from './Resilio.png'
 
 export {
     logo,
@@ -59,4 +62,7 @@ export {
     Moviebrowser,
     jobit,
     tripguide,
+    UFOGaming,
+    Tourism,
+    RESILIO
 };
